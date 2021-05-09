@@ -1,0 +1,157 @@
+body{
+	margin: 0;
+	text-align:center;
+	font-family: cursive;
+	color: #40514E;
+}
+h1{
+	
+	
+	margin:50px auto 0 auto;
+	font-size: 562.5%;/*16px=100%=1 rem*/
+	color: #66BFBF;
+}
+h2{
+	font-size: 2.5rem ;
+		color: #66BFBF;
+		font-weight: normal;
+		padding-bottom:10px;
+
+}
+h3{
+	color:#11999E;
+}
+p{
+	color:#40514E;
+	line-height:2;
+}
+hr{background-color: none;	
+   border-style: none;
+   border-top-style: dotted;/*horizontal line is actually  is a box so it will make top line dotted and other three lines are disappeared bcz of style set to none*/
+   border-color: #EAF6F6;
+   border-width: 6px;
+   width:5%;
+   margin: 100px auto 100px auto;
+	  }
+.skill-row{
+	width:50%;
+	margin:100px auto 100px auto;
+	text-align: left;
+	line-height:2;
+}
+.contact_msg{
+	width: 40%;
+	margin: 40px auto 60px auto;
+}
+a{
+	color:#11999E;
+	margin: 10px 20px 10px 20px;
+	text-decoration:none;
+}
+a:hover{
+	color:#EAF6F6;
+}
+.copyright{
+	color:#EaF6F6;
+	font-size: 0.75rem;
+	margin: 20px 0 20px 0;
+}
+.top{
+	background-color: #E4F9F5;
+	padding-top: 100px;
+	position:relative;
+	
+	
+	
+}
+.middle-container{
+	margin: 100px 0 100px 0;
+	
+	
+	
+	}
+.bottom-container{
+	background-color: #66BFBF;
+	padding: 50px 0px 20px 0px;
+	
+	
+}
+.chess
+{
+	
+	border-radius: 50%;
+	width:25%;
+	float:left;
+	margin-right:30px;
+	
+}
+.gaming
+{
+	
+	border-radius: 50%;
+	width:25%;
+	float:right;
+	margin-left:30px;
+}
+.profile_photo
+{
+	
+	border-radius: 50%;
+	width:200px;
+	height:200px;
+	margin:50px;
+}
+
+
+.top_cloud{
+	position:absolute;
+	right: 300px;
+	top: 40px;
+}	
+.bottom_cloud{
+	position:absolute;
+	left:250px;
+	bottom:300px;
+	
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999B);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999B);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999B);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999B);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999B);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
